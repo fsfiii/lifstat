@@ -1,0 +1,27 @@
+lifstat README
+==============
+
+lifstat is a linux utility that reads /proc/net/dev and reports input and
+output statistics for available network interfaces over a repeating time
+inteval similar to the BSD 'netstat -i' command.
+
+Please feel free to let me know if you find this program useful or if you
+have any problems with it.
+
+Install
+-------
+
+Edit the Makefile to change PREFIX from the default /usr/local if desired.
+
+$ make
+($ su)
+$ make install
+
+License
+-------
+
+The source code is available under a BSD license.  Please read the included
+LICENSE file for more information.
+
+Frank S. Fejes III
+frank@fejes.net

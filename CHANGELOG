@@ -1,0 +1,31 @@
+* Tue Mar 18 2010 Frank Fejes <frank at, fejes.net> 20100318
+- updated -z to properly hide 0 count rows in bandwidth mode despite
+  there being transfers in the sub-kbytes range
+
+* Thu Mar 3 2010 Frank Fejes <frank at, fejes.net> 20100304
+- added -z option to filter out devices with no traffic
+
+* Sun Feb 28 2010 Frank Fejes <frank at, fejes.net> 20100228
+- initial rpm release
+- added -r option to periodically display the header
+- added -b option for "bandwidth mode" which replaces distinct in/out error
+  reporting with total kb/mb (with -m) and transfer rate
+- changed placement of stat pulling function to increase reporting
+  accuracy by a small (practically negligible) amount ;)
+- increased width of interface name column to 6
+- increased width of bytes in/out columns
+- decreased width of packets in/out columns
+- fixed some header formatting problems with date and/or time options
+
+Changes for 2010-02-27
+======================
++ added -m option to output mbytes
+
+Changes for 2006-10-31
+======================
++ will display multiple interfaces by adding extra '-i interface' arguments
+
+Changes for 2003-08-23
+======================
++ added -n option to NOT display the header
++ added -d and -t options to display date/time fields on each line

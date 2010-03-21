@@ -1,0 +1,63 @@
+.TH LIFSTAT 8  20100318 "LIFSTAT MANPAGE" "Linux Programmer's Manual"
+.SH NAME
+lifstat \- display network interface statistics
+.SH SYNOPSIS
+.B lifstat [\-nrmbdtzvh] [\-i interface] [interval] [count]
+.SH DESCRIPTION
+.B lifstat
+reports input and output statistics for available network interfaces over
+a repeating time inteval similar to the BSD
+.B netstat -i
+command.
+.PP
+Without any options,
+.B netstat
+will display statistics for all interfaces every 5 seconds until the
+command is terminated.
+.TP
+.B \-i interface
+display statistics only for the designated interface;
+multiple interfaces can be displayed by adding extra '-i interface' arguments
+.TP
+.B interval
+the number of seconds between updates: the default value is 5
+.TP
+.B count
+the number of updates: the default value is 0, which will cause the program
+to run until the command is terminated
+.TP
+.B \-n 
+do not display the column headers
+.TP
+.B \-r 
+periodically redisplay the column headers
+.TP
+.B \-m 
+display transfer rates in mbytes/sec rather than bytes/sec
+.TP
+.B \-b 
+display "bandwidth mode" which replaces distinct in/out error reporting with
+columns for total transfer size and rate; by default in this mode, statistics
+are displayed in kbytes
+.TP
+.B \-d 
+display a leading date field on each line
+.TP
+.B \-t 
+display a leading time field on each line
+.TP
+.B \-z 
+do not display output for devices with no traffic
+.TP
+.B \-v 
+display the program version number
+.TP
+.B \-h 
+display usage information
+.SH FILES
+.I /proc/net/dev
+.SH AUTHOR
+written by Frank S. Fejes III
+.SH "SEE ALSO"
+.BR netstat (8),
+.BR ifconfig (8)
