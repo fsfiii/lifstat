@@ -1,3 +1,6 @@
+* Sun Mar 21 2010 Frank Fejes <frank at, fejes.net> 20100321
+- removed Id tags after switch from svn to git
+
 * Tue Mar 18 2010 Frank Fejes <frank at, fejes.net> 20100318
 - updated -z to properly hide 0 count rows in bandwidth mode despite
   there being transfers in the sub-kbytes range
