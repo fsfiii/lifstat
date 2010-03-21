@@ -1,5 +1,3 @@
-/* $Id: lifstat.h 116 2010-03-19 02:29:14Z frank $ */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

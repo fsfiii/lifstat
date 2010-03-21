@@ -1,5 +1,3 @@
-# $Id: Makefile,v 1.2 2006-10-31 14:55:47 frank Exp $
-
 SHELL = /bin/sh
 .SUFFIXES: .c .o
 

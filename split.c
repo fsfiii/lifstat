@@ -1,7 +1,6 @@
 /*
  * split.c
  * fsf - 2003-08-02
- * last modified: 2003-08-23
  *
  * Copyright (c) 2003, Frank S. Fejes III
  * All rights reserved.

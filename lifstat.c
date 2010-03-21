@@ -1,7 +1,6 @@
 /*
  * lifstat.c
  * fsf - 2003-08-01
- * $Id: lifstat.c 116 2010-03-19 02:29:14Z frank $
  *
  * Copyright (c) 2003, Frank S. Fejes III
  * All rights reserved.
