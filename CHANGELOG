@@ -29,3 +29,4 @@ Changes for 2003-08-23
 ======================
 + added -n option to NOT display the header
 + added -d and -t options to display date/time fields on each line
+
