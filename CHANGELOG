@@ -1,3 +1,6 @@
+* Mon Feb 7 2011 Frank Fejes <frank at, fejes.net> 20110207
+- fixed manpage reference to netstat rather than lifstat
+
 * Sun Mar 21 2010 Frank Fejes <frank at, fejes.net> 20100321
 - removed Id tags after switch from svn to git
 
